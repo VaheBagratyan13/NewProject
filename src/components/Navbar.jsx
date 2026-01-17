@@ -67,13 +67,7 @@ const Navbar = () => {
               >
                 🎨 Մեր մասին
               </a>
-              <a
-                href="#contact"
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="block text-gray-800 hover:text-orange-600 px-4 py-3 rounded-full text-base font-bold transition-all duration-200 hover:bg-orange-100 active:bg-orange-200"
-              >
-                📧 Կոնտակտ
-              </a>
+           
             </div>
           </div>
         )}
