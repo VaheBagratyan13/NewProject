@@ -34,6 +34,12 @@ const Navbar = () => {
               >
                 🎨 Մեր մասին
               </a>
+              <a
+                href="/cooperation"
+                className="text-gray-800 hover:text-orange-600 px-3 lg:px-4 py-2 rounded-full text-sm font-bold transition-all duration-200 hover:bg-white/50 hover:scale-110"
+              >
+                🤝 Համագործակցություն
+              </a>
             </div>
           </div>
 
@@ -67,7 +73,13 @@ const Navbar = () => {
               >
                 🎨 Մեր մասին
               </a>
-           
+              <a
+                href="/cooperation"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="block text-gray-800 hover:text-orange-600 px-4 py-3 rounded-full text-base font-bold transition-all duration-200 hover:bg-orange-100 active:bg-orange-200"
+              >
+                🤝 Համագործակցություն
+              </a>
             </div>
           </div>
         )}
