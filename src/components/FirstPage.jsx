@@ -47,24 +47,26 @@ const FirstPage = () => {
 
       {/* Features Section - Mobile optimized */}
       <section className="relative max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 pb-12 sm:pb-16">
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-8">
-          <div className="w-full  sm:w-auto sm:flex-1 max-w-md sm:max-w-none bg-white/90 backdrop-blur-sm p-6 sm:p-8 rounded-2xl sm:rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 sm:transform sm:hover:scale-105 active:scale-95 border-4 border-pink-400">
+        <div className="flex flex-col sm:flex-row items-stretch justify-center gap-4 sm:gap-6 md:gap-8">
+          <div className="w-full sm:w-auto sm:flex-1 max-w-md sm:max-w-none bg-white/90 backdrop-blur-sm p-6 sm:p-8 rounded-2xl sm:rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 sm:transform sm:hover:scale-105 active:scale-95 border-4 border-pink-400 flex flex-col">
             <div className="w-12 h-12 sm:w-14 md:w-16 sm:h-14 md:h-16 bg-gradient-to-br from-pink-400 to-purple-400 rounded-full flex items-center justify-center mb-3 sm:mb-4 text-2xl sm:text-3xl">
               🎯
             </div>
             <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">Նպատակ</h3>
-            <p className="text-gray-700 text-sm sm:text-base md:text-lg">Նախադպրոցականների մոտ ձևավորել տարիքին համապատասխան ֆինանսական մտածողություն</p>
+            <p className="text-gray-700 text-sm sm:text-base md:text-lg flex-grow">Նախադպրոցականների մոտ ձևավորել տարիքին համապատասխան ֆինանսական մտածողություն</p>
           </div>
 
-          <div className="w-full sm:w-auto sm:flex-1 max-w-md sm:max-w-none bg-white/90 backdrop-blur-sm p-6 sm:p-8 rounded-2xl sm:rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 sm:transform sm:hover:scale-105 active:scale-95 border-4 border-green-400">
+          <div className="w-full sm:w-auto sm:flex-1 max-w-md sm:max-w-none bg-white/90 backdrop-blur-sm p-6 sm:p-8 rounded-2xl sm:rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 sm:transform sm:hover:scale-105 active:scale-95 border-4 border-green-400 flex flex-col">
             <div className="w-12 h-12 sm:w-14 md:w-16 sm:h-14 md:h-16 bg-gradient-to-br from-green-400 to-blue-400 rounded-full flex items-center justify-center mb-3 sm:mb-4 text-2xl sm:text-3xl">
               🏆
             </div>
             <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">Կարողուկանություն</h3>
-            <p className="text-gray-700 text-sm sm:text-base md:text-lg">1․ Լեզվական և հաղորդակցական</p>
-            <p className="text-gray-700 text-sm sm:text-base md:text-lg">2․ Ճանաչողական և մոտիվացիոն</p>
-            <p className="text-gray-700 text-sm sm:text-base md:text-lg">3․ Տնտեսական</p>
-            <p className="text-gray-700 text-sm sm:text-base md:text-lg">4․ Մաթեմատիկական և տեխնիկական</p>
+            <div className="flex-grow">
+              <p className="text-gray-700 text-sm sm:text-base md:text-lg">1․ Լեզվական և հաղորդակցական</p>
+              <p className="text-gray-700 text-sm sm:text-base md:text-lg">2․ Ճանաչողական և մոտիվացիոն</p>
+              <p className="text-gray-700 text-sm sm:text-base md:text-lg">3․ Տնտեսական</p>
+              <p className="text-gray-700 text-sm sm:text-base md:text-lg">4․ Մաթեմատիկական և տեխնիկական</p>
+            </div>
           </div>
         </div>
       </section>
