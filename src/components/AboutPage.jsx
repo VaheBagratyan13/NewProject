@@ -129,32 +129,7 @@ const AboutPage = () => {
      
 
       {/* Additional Info Section */}
-      <section className="relative max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 pb-12 sm:pb-16">
-        <div className="bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl border-4 border-blue-400">
-          <div className="text-center">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-              💼 Մեր առաքելությունը
-            </h2>
-            <p className="text-base sm:text-lg md:text-xl text-gray-800 leading-relaxed max-w-3xl mx-auto mb-6 sm:mb-8">
-              Մենք նվիրված ենք երեխաների կրթությանը և զարգացմանը: Մեր թիմը օգտագործում է նորարարական մեթոդներ և փորձառություն՝ ապահովելու, որ յուրաքանչյուր երեխա ստանա լավագույն կրթությունը:
-            </p>
-            <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
-              <div className="bg-white/80 rounded-xl px-4 py-2 sm:px-6 sm:py-3 shadow-md">
-                <span className="text-2xl sm:text-3xl">🎯</span>
-                <p className="text-sm sm:text-base font-semibold text-gray-800 mt-1">Նպատակասլաց</p>
-              </div>
-              <div className="bg-white/80 rounded-xl px-4 py-2 sm:px-6 sm:py-3 shadow-md">
-                <span className="text-2xl sm:text-3xl">🤝</span>
-                <p className="text-sm sm:text-base font-semibold text-gray-800 mt-1">Համագործակցություն</p>
-              </div>
-              <div className="bg-white/80 rounded-xl px-4 py-2 sm:px-6 sm:py-3 shadow-md">
-                <span className="text-2xl sm:text-3xl">🚀</span>
-                <p className="text-sm sm:text-base font-semibold text-gray-800 mt-1">Առաջընթաց</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+   
     </div>
   );
 };
