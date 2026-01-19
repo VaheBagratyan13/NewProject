@@ -61,11 +61,11 @@ const ImgPage = () => {
         <div className="text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-3 sm:mb-4">
             <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-orange-500 bg-clip-text text-transparent">
-              📸 Photo Gallery
+              📸 Ֆոտո Հաշվետվություն
             </span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-gray-800 font-semibold px-4 mb-4 sm:mb-6">
-            🎨 Beautiful memories captured in colorful frames! 🌈
+            🎨 Գեղեցիկ հիշողություններ 🌈
           </p>
           <button
             onClick={() => navigate('/')}
